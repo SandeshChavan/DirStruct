@@ -21,5 +21,5 @@ class CreateDirectory:
             print("Unable to create directories")
             return ((("NO such directory created", "FAlSE")))
 
-obj= CreateDirectory()
-print(obj.createDirectory("C:\\Users\\pc\\PycharmProjects\\myDir\\newTest"))
+# obj= CreateDirectory()
+# print(obj.createDirectory("C:\\Users\\pc\\PycharmProjects\\myDir\\newTest"))

@@ -7,10 +7,9 @@
     classes-
             IsFileException- Class to handle creating file inside file exception
             CreateFile - Class to create file
-                        CreateFile methods-
-                            1.createFile- Method to create file
-                            2.getDestinationPath - Method to get penultimate path
-                                                   i.e destination path
+    CreateFile methods-
+            1.createFile- Method to create file
+            2.getDestinationPath - Method to get penultimate path i.e destination path
 '''
 import os
 import os.path
@@ -45,5 +44,5 @@ class CreateFile(IsFileException):
             return ((("NO such file created", "FAlSE")))
 
 
-obj= CreateFile()
-print(obj.createFile("C:\\Users\\pc\\PycharmProjects\\myDir\\newTest\\ABdc.txt\\ABc.txt"))
+# obj= CreateFile()
+# print(obj.createFile("C:\\Users\\pc\\PycharmProjects\\myDir\\newTest\\ABdc.txt\\ABc.txt"))

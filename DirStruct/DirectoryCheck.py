@@ -19,5 +19,5 @@ class DirectoryCheck:
 
 
 
-obj=DirectoryCheck()
-print(obj.checkDirectory("C:\\Users\\pc\\PycharmProjects\\myDir\\test1.txt"))
+# obj=DirectoryCheck()
+# print(obj.checkDirectory("C:\\Users\\pc\\PycharmProjects\\myDir\\test1.txt"))
