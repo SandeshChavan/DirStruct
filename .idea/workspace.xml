@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c66f3f73-1fcb-4824-9223-3f629c5b47e6" name="Default Changelist" comment="" />
+    <list default="true" id="c66f3f73-1fcb-4824-9223-3f629c5b47e6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Assignment(string_list_dict)/CreateFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment(string_list_dict)/CreateFile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment(string_list_dict)/DirectoryCheck.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment(string_list_dict)/DirectoryCheck.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment(string_list_dict)/DirectoryPath.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment(string_list_dict)/DirectoryPath.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment(string_list_dict)/DirectorySearch.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment(string_list_dict)/DirectorySearch.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,11 +32,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assignment(string_list_dict)/CreateFile.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+            <state relative-caret-position="373">
+              <caret line="48" column="59" lean-forward="true" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="59" />
               <folding>
                 <element signature="e#279#288#0" expanded="true" />
               </folding>
@@ -41,17 +46,35 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assignment(string_list_dict)/DirectoryPath.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="348">
+              <caret line="31" column="62" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="62" />
+              <folding>
+                <element signature="e#369#378#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assignment(string_list_dict)/DirectoryCheck.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="10" lean-forward="true" selection-end-line="10" />
+              <folding>
+                <element signature="e#426#435#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assignment(string_list_dict)/DirectorySearch.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -70,11 +93,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assignment(string_list_dict)/main.py" />
+        <option value="$PROJECT_DIR$/Assignment(string_list_dict)/CreateDirectory.py" />
+        <option value="$PROJECT_DIR$/Assignment(string_list_dict)/CreateFile.py" />
         <option value="$PROJECT_DIR$/Assignment(string_list_dict)/DirectoryPath.py" />
         <option value="$PROJECT_DIR$/Assignment(string_list_dict)/DirectoryCheck.py" />
         <option value="$PROJECT_DIR$/Assignment(string_list_dict)/DirectorySearch.py" />
-        <option value="$PROJECT_DIR$/Assignment(string_list_dict)/CreateFile.py" />
-        <option value="$PROJECT_DIR$/Assignment(string_list_dict)/CreateDirectory.py" />
       </list>
     </option>
   </component>
@@ -121,6 +144,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -135,7 +159,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.CreateFile">
+  <component name="RunManager" selected="Python.DirectoryCheck">
     <configuration name="CreateDirectory" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DirStruct" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -178,6 +202,48 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="DirectoryCheck" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DirStruct" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Assignment(string_list_dict)" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Assignment(string_list_dict)/DirectoryCheck.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="DirectoryPath" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DirStruct" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Assignment(string_list_dict)" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Assignment(string_list_dict)/DirectoryPath.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DirStruct" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -201,6 +267,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.DirectoryCheck" />
+        <item itemvalue="Python.DirectoryPath" />
         <item itemvalue="Python.CreateFile" />
         <item itemvalue="Python.CreateDirectory" />
         <item itemvalue="Python.main" />
@@ -247,15 +315,6 @@
     <entry file="file://$PROJECT_DIR$/Assignment(string_list_dict)/main.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assignment(string_list_dict)/DirectoryPath.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assignment(string_list_dict)/DirectoryCheck.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assignment(string_list_dict)/DirectorySearch.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assignment(string_list_dict)/CreateDirectory.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="223">
@@ -268,11 +327,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assignment(string_list_dict)/CreateFile.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+        <state relative-caret-position="373">
+          <caret line="48" column="59" lean-forward="true" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="59" />
           <folding>
             <element signature="e#279#288#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assignment(string_list_dict)/DirectoryPath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="31" column="62" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="62" />
+          <folding>
+            <element signature="e#369#378#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assignment(string_list_dict)/DirectoryCheck.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" lean-forward="true" selection-end-line="10" />
+          <folding>
+            <element signature="e#426#435#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assignment(string_list_dict)/DirectorySearch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
         </state>
       </provider>
     </entry>
