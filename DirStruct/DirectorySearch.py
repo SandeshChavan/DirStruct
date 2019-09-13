@@ -15,6 +15,7 @@ import os.path
 class DirectorySearh:
 
     def searchDirectory(self,path,searchString):
+        tempList=[]
         try:
             if(not(os.path.exists(path))):
                 raise os.error
@@ -22,13 +23,13 @@ class DirectorySearh:
                 for file in files:
                     str=root+"\\"+file
                     if str.endswith(searchString):
-                        print(str)
+                        tempList.append(str)
                 for dir in dirs:
                     str=root+"\\"+dir
                     if str.endswith(searchString):
-                        print(str)
+                        tempList.append(str)
         except os.error:
             print("Path not found")
-
+        return tempList
 # obj=DirectorySearh()
 # obj.searchDirectory("C:\\Users\\pc\\PycharmProjects\\myDir",".txt")
