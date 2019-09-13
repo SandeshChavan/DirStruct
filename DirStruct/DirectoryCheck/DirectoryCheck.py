@@ -17,5 +17,5 @@ class DirectoryCheck:
 
 
 
-# obj=DirectoryCheck()
-# print(obj.checkDirectory("C:\\Users\\pc\\PycharmProjects\\myDir\\newTest\\ABc.txt"))
+obj=DirectoryCheck()
+print(obj.checkDirectory("C:\\Users\\pc\\PycharmProjects\\myDir\\newTest\\ABc.txt"))
