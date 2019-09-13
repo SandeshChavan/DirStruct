@@ -5,4 +5,4 @@
 * List the files and sub-directories in the specified directory
 * Check whether specified file or directory exists in the specified absolute path
 * Lists the paths matching the specified sub-string
-
+* Logs the details to an external log file
