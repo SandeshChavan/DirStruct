@@ -10,5 +10,6 @@
 * /snap/core18/1074/etc/default/ssh
 ### Snapshot of response 
 #### List of all the paths
+* Sub-string  - ".txt"
 * <p><img src="https://github.com/SandeshChavan/DirStruct/blob/master/DirStruct/Snapshots/List.png" alt="Snapshot"></p>
 
