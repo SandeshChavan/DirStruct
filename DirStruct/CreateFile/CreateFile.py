@@ -7,10 +7,7 @@
     classes-
             IsFileException- Class to handle creating file inside file exception
             CreateFile - Class to create file
-    CreateFile methods-
-            1.createFile- Method to create file
-            2.getDestinationPath - Method to get penultimate path i.e destination path
-'''
+    '''
 import os
 import os.path
 class IsFileException(Exception):
@@ -21,6 +18,8 @@ class CreateFile(IsFileException):
     def __init__(self):
         pass
 
+    #Method to get penultimate path i.e the destination location for file creation
+    #error handing(creation of file inside a file)
     def getDestinationPath(self,path):
         destPath=""
         tempPath = path.split("\\")
@@ -29,6 +28,7 @@ class CreateFile(IsFileException):
                 destPath = destPath +"\\"+ str(dir)
         return destPath
 
+    #Method to create file in the specified absolute path
     def createFile(self,path):
         try:
             checkPath=self.getDestinationPath(path)

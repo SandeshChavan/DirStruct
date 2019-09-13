@@ -12,6 +12,7 @@
 import logging
 
 class Logger:
+    #Appends the report of the previous implementation with the respective timestamp
     def generateReport(self,createDirStatus,fileStatus,existStatus,List,paths):
         logging.basicConfig(filename="Dir.log", level=logging.DEBUG, format='%(levelname)s: %(asctime)s %(message)s',
                             datefmt='%m/%d/%Y %I:%M:%S %p')
@@ -19,5 +20,5 @@ class Logger:
         logging.info(fileStatus)
         logging.info(existStatus)
         logging.info(List)
-        logging.info(paths)
+        logging.info(str(paths)+"\n")
 

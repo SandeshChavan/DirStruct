@@ -5,8 +5,7 @@
         2. os.path - Used to work with absolute paths
     classes-
             DirectorySearch - Class to check for all matching path with specified path
-    DirectoryCheck methods-
-          1.searchDirectory- returns all matching sub string
+
 '''
 
 import os
@@ -14,6 +13,8 @@ import os.path
 
 class DirectorySearh:
 
+    #Method returns the list of paths in the specified absolute path
+    # ending with the specified substring
     def searchDirectory(self,path,searchString):
         tempList=[]
         try:

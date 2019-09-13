@@ -5,8 +5,6 @@
         2. os.path - Used to work with absolute paths
     classes-
             ListDirectory - Class to list the directory
-    CreateFile methods-
-             1.listDirectory- returns a directory with dictionary of files and subdir
 '''
 
 import os
@@ -14,6 +12,7 @@ import os.path
 
 class ListDirectory:
 
+    #Method returns dictionary of files and sub directories in the specified directory
     def listDirectory(self,path):
         list={"Files":[],"Sub Directories":[]}
         try:
