@@ -10,3 +10,9 @@ INFO: 09/13/2019 05:18:30 PM False
 INFO: 09/13/2019 05:18:30 PM {'Files': ['abd.pdf', 'test.txt'], 'Sub Directories': ['New', 'newTest']}
 INFO: 09/13/2019 05:18:30 PM ['C:\\Users\\pc\\PycharmProjects\\myDir\\test.txt', 'C:\\Users\\pc\\PycharmProjects\\myDir\\newTest\\ABc.txt', 'C:\\Users\\pc\\PycharmProjects\\myDir\\newTest\\ABdc.txt']
 
+INFO: 09/13/2019 05:42:09 PM ('NO such directory created', 'FAlSE')
+INFO: 09/13/2019 05:42:09 PM Cannot create file inside a file
+INFO: 09/13/2019 05:42:09 PM False
+INFO: 09/13/2019 05:42:09 PM {'Files': ['abd.pdf', 'test.txt'], 'Sub Directories': ['New', 'newTest']}
+INFO: 09/13/2019 05:42:09 PM ['C:\\Users\\pc\\PycharmProjects\\myDir\\test.txt', 'C:\\Users\\pc\\PycharmProjects\\myDir\\newTest\\ABc.txt', 'C:\\Users\\pc\\PycharmProjects\\myDir\\newTest\\ABdc.txt']
+

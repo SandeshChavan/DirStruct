@@ -33,4 +33,4 @@ class DirectorySearh:
             print("Path not found")
         return tempList
 # obj=DirectorySearh()
-# obj.searchDirectory("C:\\Users\\pc\\PycharmProjects\\myDir",".txt")
+# print(obj.searchDirectory("C:\\Users\\pc\\PycharmProjects\\myDir",".txt"))

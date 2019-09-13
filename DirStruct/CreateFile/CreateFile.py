@@ -32,8 +32,10 @@ class CreateFile(IsFileException):
     def createFile(self,path):
         try:
             checkPath=self.getDestinationPath(path)
-            if(checkPath.find(".")):
+            if(checkPath.find(".")!=-1):
                     raise IsFileException
+            if(os.path.exists(path)):
+                raise FileExistsError
             f=open(path,"w+")
             f.close()
             return ((path, "TRUE"))
@@ -45,4 +47,4 @@ class CreateFile(IsFileException):
 
 
 # obj= CreateFile()
-# print(obj.createFile("C:\\Users\\pc\\PycharmProjects\\myDir\\newTest\\ABdc.txt\\ABc.txt"))
+# print(obj.createFile("C:\\Users\\pc\\PycharmProjects\\myDir\\new.txt"))
